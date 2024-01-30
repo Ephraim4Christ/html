@@ -2,10 +2,66 @@
 <html>
 <head>
 	<title>New Form</title>
+	<style type="text/css">
+		body{
+			background-color: #336666;
+		}
+		form{
+			margin: 40px 350px;
+			width: 700px;
+			background-color: #FFFFFF;
+			border-radius: 6px;
+		}
+		label{
+			display: inline-block;
+			font-family: cursive;
+			width: 70px;
+			margin: 10px;
+		}
+		input{
+			border-radius: 5px;
+		}
+		.div1{
+			}
+			.tr1{
+				background-color: green;
+			}
+			th{
+				 width: 100px;
+			}
+			tr{
+				background-color: white;
+				text-align: center;
+			}
+			h2{
+				text-align: center;
+				color: green;
+			}
+			#submit{
+				width: 50%;
+				background-color: #66CC00;
+				margin: 2px;
+				border-width: 3px;
+				box-shadow: 13px;
+				border-color: white;
+				border-radius: 50px;
+
+			}
+			#reset{
+				width: 48%;
+				background-color: #66CC00;
+				margin: 2px;
+				border-width: 3px;
+				box-shadow: 13px;
+				border-color: white;
+				border-radius: 50px;
+			}
+	</style>
 </head>
 <body>
-	<p><h2>Simple form for weekly activities</h2></p>
+	
 <form>
+	<p><h2><hr>Simple form for weekly activities</h2></p><hr>
 	<label for="Username">Username</label>
 	<input type="text" id="Username" required="Username" maxlength="10" minlength="6" placeholder="joyjoy"> <br>
 
@@ -25,7 +81,7 @@
 
 	<label for="Quantity">Quantity</label>
 	<input type="number" id="Quantity" max="99", min="0" value="0">
-
+<div class="div1">
 	<label for="title">Title:</label>
 
 	<label for="Mr">Mr.</label>
@@ -36,6 +92,7 @@
 	<input type="radio" id="Miss" name="title" value="Miss">
 	<label for="PhD">PhD</label>
 	<input type="radio" id="PhD"name="title" value="PhD"><br>
+</div>
 
 <label for="Payment">Payment:</label>
 <select id="Payment" required="Payment">
@@ -43,7 +100,7 @@
 	<option value="Master">Master Card</option>
 	<option value="Visa">Visa</option>
 	<option value="Web">Web card</option>
-</select><br>
+</select><br><br>
 
 <label for="Subscribe">Subscribe:</label>
 <input type="checkbox" id="Subscribe"><br>
@@ -57,16 +114,16 @@
 <label for="File">File:</label>
 <input type="file" id="File" accept="img/jpm, text" required="file"><br>
 
-<p><table bgcolor="Red">
-	<tr bgcolor="green">
-		<th width="100">Days</th>
-		<th width="100">Sunday</th>
-		<th width="100">Monday</th>
-		<th width="100">Tuesday</th>
-		<th width="100">Wednesday</th>
-		<th width="100">Thursday</th>
-		<th width="100">Friday</th>
-		<th width="100">Saturday</th>
+<table bgcolor="Red">
+	<tr class="tr1">
+		<th >Days</th>
+		<th >Sunday</th>
+		<th >Monday</th>
+		<th >Tuesday</th>
+		<th >Wednesday</th>
+		<th >Thursday</th>
+		<th >Friday</th>
+		<th >Saturday</th>
 	</tr>
 	<tr bgcolor="white" align="center" >
 		<td><b>Activity</td></b>
@@ -78,7 +135,7 @@
 		<td>A. French</td>
 		<td>Cleaning</td>
 	</tr>
-	<tr bgcolor="white" align="center" >
+	<tr>
 		<td><b>Time</td></b>
 		<td>0700 - 1200</td>
 		<td>0600 - 0700</td>
@@ -88,10 +145,10 @@
 		<td>0830 - 0930</td>
 		<td>0800 - 1200</td>
 	</tr><br>
-</table></p>
+</table>
 
-<input type="reset" name="">
-	<input type="submit" >
+<input type="reset" name="reset" id="reset">
+	<input type="submit" name="submit" id="submit" >
 
 </form>
 </body>
