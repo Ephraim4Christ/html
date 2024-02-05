@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration Form</title>
+</head><style type="text/css">
+	body{
+		 background-image:linear-gradient(90deg,  #990066, red, green);
+	}
+	form{
+		background-image:conic-gradient(#990066,#6699CC,#FF00CC,#663399, red, green);
+		width: 40%;
+		border-color: red;
+		border-radius: 6px;
+		margin: 50px 380px;
+		border: 10px dotted grey;
+		box-shadow: 5px;
+		
+		}
+		label{
+			margin: 10px;
+			display: inline-block;
+			padding: 4px;
+			width: 100px;
+			font-family: cursive;
+			font-size: 20px;
+
+		}
+		h1{
+			text-align: center;
+			color: #00FF99;
+			font-family: cursive;
+			te
+		}
+		input{
+			border-width: 3px;
+			border-radius: 7px;
+			width: 30px 100px;
+			font-family: cursive;
+			font-size: 15px;
+		}
+		#submit{
+			width: 100px;
+			margin: 10px 180px;
+			background-color: green;
+		}
+</style>
+
+<body>
+<form>
+	<h1> REGISTRATION FORM</h1>
+		<hr>
+	<label>Name</label>
+	<input type="text" name="text" placeholder="Surname first" required="name"><br>
+	<label>Email</label>
+	<input type="email" name="email" placeholder="abc@gmail.com" required="email"><br>
+	<label>Phone No.:</label>
+	<input type="tel" name="tel" required="Phone"><br>
+	<label>Password</label>
+	<input type="password" required="password"><br>
+	<label>Confirm Password</label>
+	<input type="password" required="password"><br>
+	<input type="submit" id="submit" value="Register">
+</form>
+</body>
+</html>
