@@ -50,6 +50,8 @@ nav ul a:hover{
 	transition: 0.2s ease;
 	border-radius: 5px;
 }
+
+/* There should be no space between them, img:hover. Remove the space and hover on ur products. */
 .item img: hover{
 	transform: scale(1.08);
 	background-color: green;
@@ -71,6 +73,7 @@ nav ul a:hover{
 	font-family: cursive;
 	transition: 0.2s all;
 }
+/* There should be no space between them, button:hover. Remove the space and hover on ur products. */
 .item button: hover{
 	transform: translateY(-10px);
 	transform: scale(1.08);
