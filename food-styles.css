@@ -6,9 +6,13 @@
 }
 h1{
 	text-align: center;
-	color: green;
+	color: lime;
 	padding: 10px;
+	font-family: fantasy;
+	font-size: 50px;
+
 }
+
 nav{
 
 	display: grid;
@@ -25,6 +29,7 @@ nav ul a{
 	text-decoration: none;
 	color:white;
 	transition: 0.2s ease-in;
+	font-family: cursive;
 }
 nav ul a:hover{
 	background-color:  green;
@@ -43,6 +48,7 @@ nav ul a:hover{
 	object-fit: cover;
 	cursor: pointer;
 	transition: 0.2s ease;
+	border-radius: 5px;
 }
 .item img: hover{
 	transform: scale(1.08);
@@ -66,5 +72,16 @@ nav ul a:hover{
 	transition: 0.2s all;
 }
 .item button: hover{
+	transform: translateY(-10px);
 	transform: scale(1.08);
+}
+footer{
+	font-weight: 14px;
+	font-family: fantasy;
+	font-size: 50px;
+	background-color: green;
+	width: auto;
+	padding: 10px;
+	text-align: center;
+	color: white;
 }
