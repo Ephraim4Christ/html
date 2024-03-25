@@ -1,0 +1,58 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	background-color: gray;
+	background-size: cover;
+	background-position: center;
+	font-family: sans-serif;
+}
+.manu
+{
+	background-color: green;
+	text-align: center;
+	color: white;
+}
+.manu ul{
+	display: inline-flex;
+	list-style: none;
+	
+}
+.manu ul li{
+	padding: 20px;
+	margin: 10px;
+	width: 0 auto;
+}
+a{
+	text-decoration: none;
+	color: #fff;
+}
+.act, .manu ul li:hover {
+	background-color: black;
+	border-radius: 10px;
+}
+.manu1{
+	display: none;
+	color: red;
+}
+.manu ul li:hover .manu1{
+	display: block;
+	margin-top: 15px;
+	margin-left: -15px;
+	position: absolute;
+}
+.manu ul li:hover .manu1 ul{
+	display: block;
+	margin: 10px;
+	margin-left: 1px;
+}
+.manu ul li:hover .manu1 ul li{
+	width: 0 auto;
+	text-align: left;
+	border-radius: 10;
+	border-bottom: 1px dotted #fff;
+	background: transparent;
+	color: red;
+}

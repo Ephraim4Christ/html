@@ -1,0 +1,62 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.menu{
+	padding: 0 10px 5px 10px;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, ifr));
+}
+.heading{
+	text-align: center;
+	background-color: green;
+	width: 0 auto;
+	color: #ffffff;
+
+}
+.heading h1{
+	font-size: 50px;
+}
+.heading h3{
+	font-size: 30px;
+	color: yellow;
+}
+.items{
+	display: grid;
+	position: relative;
+	grid-template-rows: repeat(3 1fr;)
+	
+}
+.items img{
+	width: 100%;
+	border-radius: 15px 15px 0 0;
+	padding: 10px;
+	position: relative;
+}
+h2{
+	text-align: center;
+	grid-column: 1/-1;
+}
+.note{
+	padding: 20px 10px;
+	display: grid;
+	grid-template-columns: repeat(3 1fr);
+	grid-row-gap: 15px;
+}
+.subnote{
+	display: grid;
+	grid-template-columns: auto auto;
+}
+.subnote h2{
+	font-size: 80px;
+	font-weight: 600;
+}
+.price{
+	text-align:right;
+	font: cursive;
+}
+.note>p{
+	color: red;
+	align-self: stretch;
+}

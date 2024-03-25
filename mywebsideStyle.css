@@ -1,0 +1,153 @@
+body{
+	font-family: cursive;
+background-color: gray;
+}
+
+.heading{
+	background-image: url("belove.jpg");
+	background-repeat: no-repeat, repeat;
+	width: 100% auto;
+	margin: 2px;
+	border-top-color:  lime;
+	border-bottom: white;
+	border-left-color: lime;
+	border-right-color: lime;
+	border-width: 2px;
+	border-style: solid;
+	padding: 1px;
+	background-size: cover;
+	font-family: cursive;
+	font-size: 50px;
+	font-weight: 15px;
+	line-height: 1;
+	border-radius: 5px;
+  }
+.p2{
+	color: green;
+}
+  p{
+  	margin: 40px;
+  	line-height: 0.5;
+
+  }
+
+nav{
+
+	display: grid;
+}
+nav ul{
+	list-style-type: none;
+}
+
+nav ul a{
+	display: inline-block;
+	padding: 20px;
+	text-decoration: none;
+	color:white;
+	transition: 0.2s ease-in;
+	font-family: cursive;
+	border:3px solid lime;
+	background-color: #7CFC00;
+	border-radius: 10px;
+	font-size: 25px;
+}
+nav ul a:hover{
+	background-color:  white;
+	color: green;
+}
+.p3{
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 50px;
+	font-style: oblique;
+}
+
+.items{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	padding: 50px;
+	grid-column-gap: 30px;
+	grid-row-gap: 30px;
+}
+.item img{
+	width: 100%;
+	height: 90%;
+	object-fit: cover;
+	cursor: pointer;
+	transition: 0.2s ease;
+	border-radius: 5px;
+}
+
+.item img:hover{
+	transform: scale(1.08);
+	background-color: green;
+	color: white;
+}
+.item button{
+	margin: 0 auto;
+	border-radius: 10px;
+	display: block;
+	background-color: lime;
+	color: white;
+	cursor: pointer;
+	width: 50%;
+	font-family: cursive;
+	transition: 0.2s all;
+	font-size: 15px;
+}
+.item button:hover{
+	transform: scale3d(10px);
+	transform: scale(1.08);
+  	
+  }
+  section{
+  	display: grid;
+  }
+  
+  section ul{
+	list-style-type: none;
+}
+section ul a{
+	display: inline-block;
+	padding: 20px;
+	text-decoration: none;
+	color:gray;
+	transition: 0.2s ease-in;
+	font-family: cursive;
+	border:none;
+	background-color: White;
+	border-radius: 10px;
+	font-size: 18px;
+	margin: center;
+	font-style: italic;
+	
+}
+section ul a:hover{
+	background-color:  green;
+	color: white;
+}
+.home{
+	margin-left: 400px;
+	background-color: green;
+}
+.media{
+	background-color: white;
+}
+.menu{
+	display: inline-flex;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	background-size: cover;
+	width: 100%;
+	list-style: none;
+}
+
+.menu ul li{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.menu ul li a{
+	text-decoration: none;
+}

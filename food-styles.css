@@ -51,8 +51,7 @@ nav ul a:hover{
 	border-radius: 5px;
 }
 
-/* There should be no space between them, img:hover. Remove the space and hover on ur products. */
-.item img: hover{
+.item img:hover{
 	transform: scale(1.08);
 	background-color: green;
 	color: white;
@@ -73,9 +72,8 @@ nav ul a:hover{
 	font-family: cursive;
 	transition: 0.2s all;
 }
-/* There should be no space between them, button:hover. Remove the space and hover on ur products. */
-.item button: hover{
-	transform: translateY(-10px);
+.item button:hover{
+	transform: scale3d(10px);
 	transform: scale(1.08);
 }
 footer{
